@@ -229,21 +229,21 @@ const loadInitialData = () => {
 
 // CONSOLE EXAMPLE
 
-// const obj = { name: "yash" , age:22 };
+// const obj = { name: "nitin" , age:26 };
 //      undefined
 // console.log(obj);
-//      {name: 'yash', age: 22}
+//      {name: 'nitin', age: 26}
 // console.log({obj});
 //      {obj: {…}}
 
 // console.log({...obj});
-//      {name: 'yash', age: 22} , now no problem because of ... (spread operator)
+//      {name: 'nitin', age: 26} , now no problem because of ... (spread operator)
 
 // console.log({obj , designation : "unemployed"});
 //      {obj: {…}, designation: 'unemployed'} , we can also add new keys with the help of spread operator
 
 // console.log({...obj , surname : "sehgal"});
-//      {name: 'yash', age: 22, surname: 'sehgal'} , but it wont stay because we only consoled it 
+//      {name: 'nitin', age: 26, surname: 'kumar'} , but it wont stay because we only consoled it 
 
 // IF WE DEFINE OUR OBJECT AGAIN IN CONSOLE AS {OBJ} THEN IT SHOWS DOUBLE BRACKETS TO REMOVE THOSE WE USE ... OR SPREAD OPERATOR
 // IT IS USED TO IDENTIFY OR GROUP THINGS EASILY 
@@ -253,17 +253,17 @@ const loadInitialData = () => {
 
 // *******************************************************************************************************************************
 
-// const obj = { name: "yash" , age:22 };
+// const obj = { name: "nitin" , age:26 };
 
 // console.log(obj);
-//  {name: 'yash', age: 22}
+//  {name: 'nitin', age: 26}
 
 
 // IF WE ENTER THE SAME KEY WITH THE UPDATED VALUE , A NEW KEY IS NOT MADE USSI MAI UPDATION HOJATI H AISE HE EDIT CHANGES PE 
 // HUMARE MODAL MAI SEEDHA UPDATE HOJAYEGA AUR NAYI STORE HOJAYEGI
 
 // console.log({...obj , age : 24});
-//  {name: 'yash', age: 24}
+//  {name: 'nitin', age: 26}
 
 // *******************************************************************************************************************************
 
