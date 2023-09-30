@@ -242,7 +242,7 @@ const loadInitialData = () => {
 // console.log({obj , designation : "unemployed"});
 //      {obj: {…}, designation: 'unemployed'} , we can also add new keys with the help of spread operator
 
-// console.log({...obj , surname : "sehgal"});
+// console.log({...obj , surname : "kumar"});
 //      {name: 'nitin', age: 26, surname: 'kumar'} , but it wont stay because we only consoled it 
 
 // IF WE DEFINE OUR OBJECT AGAIN IN CONSOLE AS {OBJ} THEN IT SHOWS DOUBLE BRACKETS TO REMOVE THOSE WE USE ... OR SPREAD OPERATOR
